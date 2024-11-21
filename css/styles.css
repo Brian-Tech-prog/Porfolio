@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa al menos el 100% del viewport */
+}
+main {
+  flex: 1; /* Ocupa el espacio restante entre header y footer */
+}
+.bg-fondo {
+  background-color: green !important;
+}
+.bg-nav {
+  background-color: #01340a !important;
+}
+.linea {
+  background-color: #000 !important;
+  width: 100px !important;
+  height: 5px !important;
+  border-radius: 5px !important;
+}
+.btn-new {
+  background-color: #01340a !important;
+  border-color: #ffff;
+}
+
+.btn-new:hover {
+  background-color: green !important;
+}
+.btn-descarga:hover {
+  background-color: #01340a !important;
+}
+.icons {
+  color: #01340a !important;
+}
+article {
+  cursor: pointer;
+}
+article:hover .mas {
+  opacity: 0.5;
+}
+.mas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  color: green !important;
+  opacity: 0;
+}
+.visitar {
+  opacity: 1;
+  color: #ffff !important;
+}
+
+/* .modal-content button:hover {
+  background-color: #01340a !important;
+} */
+.modal-content .btn-close {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin: 5px;
+}
+@media (min-width: 720px) {
+  #sobre-mi div {
+    width: 75% !important;
+  }
+  #contacto form {
+    width: 60% !important;
+  }
+  #text-modal {
+    width: 60% !important;
+  }
+  .modal-content img {
+    width: 400px !important;
+  }
+  .modal-content button:hover .visitar {
+    opacity: 1;
+    color: #ffff !important;
+  }
+  .visitar {
+    opacity: 0.5;
+    color: #ffff !important;
+  }
+  .modal-content button .btn {
+    background-color: #01340a !important;
+  }
+  .modal-content button:hover {
+    background-color: green !important;
+  }
+}
