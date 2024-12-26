@@ -56,6 +56,19 @@ main {
 }
 .icons {
   color: #01340a !important;
+  transition: all 0.8px ease;
+}
+#a1:hover .fa-brands {
+  font-size: 30px;
+}
+#a2:hover .fa-brands {
+  font-size: 30px;
+}
+#a3:hover .fa-brands {
+  font-size: 30px;
+}
+#a4:hover .fa-brands {
+  font-size: 30px;
 }
 article {
   cursor: pointer;
