@@ -6,6 +6,31 @@ body {
 main {
   flex: 1; /* Ocupa el espacio restante entre header y footer */
 }
+.estilo-menu {
+  background-color: green;
+  border-radius: 5px;
+  height: 5px;
+  opacity: 0;
+  transition: all 0.7s ease-out;
+}
+.navbar-nav li:nth-child(1):hover .estilo-menu {
+  opacity: 1 !important;
+}
+.navbar-nav li:nth-child(1):hover .nav-link {
+  font-size: 20px !important;
+}
+.navbar-nav li:nth-child(2):hover .estilo-menu {
+  opacity: 1 !important;
+}
+.navbar-nav li:nth-child(2):hover .nav-link {
+  font-size: 20px !important;
+}
+.navbar-nav li:nth-child(3):hover .estilo-menu {
+  opacity: 1 !important;
+}
+.navbar-nav li:nth-child(3):hover .nav-link {
+  font-size: 20px !important;
+}
 .bg-fondo {
   background-color: green !important;
 }
